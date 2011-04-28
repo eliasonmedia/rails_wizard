@@ -1,4 +1,5 @@
 heroku_name = app_name.gsub('_','')
+gem "heroku"
 
 after_everything do
   if config['create']
